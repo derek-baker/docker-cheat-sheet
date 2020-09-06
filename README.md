@@ -40,7 +40,7 @@ docker exec --interactive --tty $USER /bin/bash
 
 <br>
 
-TO STOP A DETACHED CONTAINER:
+TO STOP A RUNNING CONTAINER:
 ``` bash
 docker stop $USER
 ```

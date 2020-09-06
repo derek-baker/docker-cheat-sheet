@@ -30,7 +30,7 @@ docker exec --interactive --tty $USER /bin/bash
 
 <br>
 
-TO VIEW THE stdout OF A RUNNING DETACHED CONTAINER'S MAIN PROCESS:
+TO VIEW THE stdout OF A RUNNING BUT DETACHED CONTAINER'S MAIN PROCESS:
 (The main process is the entrypoint specified when you started the container)
 ``` bash
 docker logs --follow $USER

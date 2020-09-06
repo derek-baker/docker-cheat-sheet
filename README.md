@@ -21,21 +21,21 @@ docker run --detach --tty --name $USER --user $(id -u):$(id -g) sg2:1.0 {LONG}/{
 
 <br>
 
-TO "ATTACH" TO A DETACHED BUT RUNNING CONTAINER, AND ALSO START BASH IN YOUR TTY:
-``` bash
-docker exec --interactive --tty $USER /bin/bash
-
-# To exit and return to the host shell, type 'exit' and press enter, or press CTRL+C
-```
-
-<br>
-
 TO VIEW THE stdout OF A RUNNING BUT DETACHED CONTAINER'S MAIN PROCESS:
 (The main process is the entrypoint specified when you started the container)
 ``` bash
 docker logs --follow $USER
 
 # To exit and return to the host shell, press CTRL+C
+```
+
+<br>
+
+TO "ATTACH" TO A DETACHED BUT RUNNING CONTAINER, AND ALSO START BASH IN YOUR TTY:
+``` bash
+docker exec --interactive --tty $USER /bin/bash
+
+# To exit and return to the host shell, type 'exit' and press enter, or press CTRL+C
 ```
 
 <br>

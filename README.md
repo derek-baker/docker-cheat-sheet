@@ -1,8 +1,8 @@
 # HELPFUL DOCKER COMMANDS
 
-NOTE: We're going to name containers using your username, because using names is easier than using ID's, but we need to avoid naming conflicts.
+- NOTE: We're going to name containers using your username, because using names is easier than using ID's, but we need to avoid naming conflicts.
 
-OTHER NOTE: We assume your environment already contains the image ```sg2```, and also that the specified image has a tag at ```1.0```.
+- OTHER NOTE: We assume your environment already contains the image ```sg2```, and also that the specified image has a tag at ```1.0```.
 
 
 <hr>

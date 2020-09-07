@@ -56,10 +56,10 @@ docker restart $USER
 
 TO PAUSE A RUNNING CONTAINER (a paused container will not survive a reboot):
 ``` bash
-docker container pause $USER
+docker pause $USER
 
 # To un-pause a paused container
-# docker container unpause
+# docker unpause $USER
 ```
 
 <br>

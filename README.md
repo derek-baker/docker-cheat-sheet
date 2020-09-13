@@ -10,7 +10,7 @@
 TO BUILD A CONTAINER
 ``` bash
 cd <DIR_CONTAINING_CLONED_REPO>
-docker build --tag sg2:1.0 .
+docker build --tag <DESIRED_IMAGE_NAME>:<TAG> . # EX: --tag my-container:1.0 .
 ```
 
 <hr>

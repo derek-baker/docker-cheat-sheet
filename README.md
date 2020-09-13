@@ -4,6 +4,14 @@
 
 - OTHER NOTE: We assume your environment already contains the image ```sg2```, and also that the specified image has a tag at ```1.0```.
 
+<hr>
+<br>
+
+TO BUILD A CONTAINER
+``` bash
+cd <DIR_CONTAINING_CLONED_REPO>
+docker build --tag sg2:1.0 .
+```
 
 <hr>
 <br>
